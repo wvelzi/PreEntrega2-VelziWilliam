@@ -34,7 +34,6 @@ h2 {
 
 .menu-navegador {
     background-color: black;
-    padding: 5px;
     width: 100%;
     height: 100%;
     flex-wrap: wrap;
@@ -42,7 +41,7 @@ h2 {
 
 .menu-navegador ul li {
     display: inline;
-    padding: 20px;
+    padding: 10px;
 }
 
 
@@ -76,12 +75,12 @@ p {
 .caja {
     background-color: whitesmoke;
     color: black;
-    padding: 130px 30px;
-    margin: 50px;
     border: 5px solid black;
+    padding: 20px;
+    margin: 150px;
     border-radius: 10px;
-    width: 700px;
-    height: 200px;
+    width: 600px;
+    height: 400px;
 }
 
 
@@ -90,7 +89,74 @@ p {
     height: 100%;
     object-fit: cover;
     text-align: center;
-    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.caj {
+    background-color: whitesmoke;
+    color: black;
+    border: 5px solid black;
+    padding: 20px;
+    border-radius: 8px;
+    width: 600px;
+    height: 400px;
+}
+
+
+.caj text {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 8px;
+}
+
+.table {
+    background-color: white;
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    border: 3px solid black;
+    border-radius: 8px;
+}
+
+.carousel-inner {
+    height: 600px;
+    justify-content: center;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+
+}
+
+.form {
+    justify-items: center;
+    align-items: center;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 8px;
+    width: 300px;
+    height: 390px;
+    padding: 20px;
+    margin: 20px;
+
 }
 
 .map {
@@ -108,7 +174,7 @@ p {
 
 .pie {
     background-color: whitesmoke;
-    padding: 10px;
+    padding: 5px;
     border-top: 5px solid black;
     width: 100%;
     height: 100%;
@@ -116,7 +182,7 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 5px;
 
 
 }
@@ -150,12 +216,14 @@ p {
     margin: 50px;
     border: 5px solid black;
     border-radius: 10px;
-    width: 900px;
-    height: 450px;
+    width: 700px;
+    height: 350px;
+    text-align: center;
+    align-items: center;
 }
 
 
-.loremprod p {
+.loremprod text {
     text-align: center;
     align-items: center;
     width: 100%;
@@ -475,4 +543,3 @@ p {
         'area1 area1 area1'
         'area1 area1 area1';
 }
-
