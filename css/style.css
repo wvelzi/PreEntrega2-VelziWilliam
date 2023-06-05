@@ -77,17 +77,18 @@ p {
     color: black;
     border: 5px solid black;
     padding: 20px;
-    margin: 150px;
     border-radius: 10px;
     width: 600px;
-    height: 400px;
+    height: 250px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 
 .caja text {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    font-size: 30px;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -99,7 +100,7 @@ p {
     border: 5px solid black;
     padding: 20px;
     border-radius: 8px;
-    width: 600px;
+    width: 800px;
     height: 400px;
 }
 
@@ -113,17 +114,22 @@ p {
     justify-content: center;
 }
 
-.card {
+
+.card-body {
+    padding: 20px;
+    background-color: white;
+    display: inline-block;
+    border: 8px solid black;
+    margin: 15px;
+    text-align: center;
     justify-content: center;
-    margin: 10px;
-    padding: 10px;
-    border: 5px solid black;
-    border-radius: 8px;
+    width: 18%;
+    height: 60%;
 }
 
 .table {
     background-color: white;
-    width: 300px;
+    width: 600px;
     height: 100px;
     padding: 10px;
     text-align: center;
@@ -164,6 +170,7 @@ p {
     height: 300px;
     margin: 50px;
     border: 5px solid black;
+    display: flex;
 }
 
 .map iframe {
@@ -183,6 +190,12 @@ p {
     align-items: center;
     justify-content: center;
     gap: 5px;
+}
+
+.pie i {
+    font-size: 20px;
+    color: black;
+    display: flex;
 
 
 }
@@ -280,43 +293,6 @@ p {
     border: 3px solid black;
 }
 
-.cajita {
-    border: 3px solid whitesmoke;
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(3, 300px);
-    grid-template-areas:
-        'area3 area3 area4 area4 area1 area1'
-        'area3 area3 area4 area4 area1 area1'
-        'area3 area3 area4 area4 area1 area1'
-        'area2 area2 area5 area5 area1 area1'
-        'area2 area2 area5 area5 area1 area1'
-        'area2 area2 area5 area5 area1 area1'
-        'area2 area2 area5 area5 area1 area1'
-    ;
-    align-items: center;
-    justify-items: center;
-    place-items: center;
-    gap: 15px;
-    padding: 15px;
-}
-
-.cajita__hijo {
-    width: 100%;
-    height: 100%;
-    background-color: whitesmoke;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    place-items: center;
-    border: 3px solid black;
-}
-
-.cajita__hijo img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
 
 .g1 {
     grid-area: area1;
@@ -357,30 +333,6 @@ p {
     grid-area: area6;
 }
 
-.c1 {
-    grid-area: area1;
-
-}
-
-.c2 {
-    grid-area: area2;
-
-}
-
-.c3 {
-    grid-area: area3;
-
-}
-
-.c4 {
-    grid-area: area4;
-
-}
-
-.c5 {
-    grid-area: area5;
-
-}
 
 @media only screen and (max-with:1024px) {
 
@@ -419,26 +371,6 @@ p {
         border-radius: 0;
     }
 
-    .cajita {
-        grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: repeat(9, 300px);
-        grid-template-areas:
-            'area3 area3 area4 area4 area4'
-            'area3 area3 area4 area4 area4'
-            'area3 area3 area4 area4 area4'
-            'area2 area2 area5 area5 area5'
-            'area2 area2 area5 area5 area5'
-            'area2 area2 area5 area5 area5'
-            'area1 area1 area1 area1 area1'
-            'area1 area1 area1 area1 area1'
-            'area1 area1 area1 area1 area1';
-    }
-
-    .c3 {
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-    }
 }
 
 
@@ -466,34 +398,6 @@ p {
 
     }
 
-    .cajita {
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: auto;
-        grid-template-areas:
-            'area3 area3 area3 area3'
-            'area3 area3 area3 area3'
-            'area3 area3 area3 area3'
-            'area2 area2 area2 area2'
-            'area2 area2 area2 area2'
-            'area2 area2 area2 area2'
-            'area5 area5 area5 area5'
-            'area5 area5 area5 area5'
-            'area5 area5 area5 area5'
-            'area4 area4 area4 area4'
-            'area4 area4 area4 area4'
-            'area4 area4 area4 area4'
-            'area1 area1 area1 area1'
-            'area1 area1 area1 area1'
-            'area1 area1 area1 area1'
-        ;
-    }
-
-    .cajita__hijo img {
-
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-    }
 
 }
 
@@ -520,26 +424,4 @@ p {
     .menu-navegador ul {
         flex-direction: column;
     }
-}
-
-
-.cajita {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
-    grid-template-areas:
-        'area3 area3 area3'
-        'area3 area3 area3'
-        'area3 area3 area3'
-        'area2 area2 area2'
-        'area2 area2 area2'
-        'area2 area2 area2'
-        'area5 area5 area5'
-        'area5 area5 area5'
-        'area5 area5 area5'
-        'area4 area4 area4'
-        'area4 area4 area4'
-        'area4 area4 area4'
-        'area1 area1 area1'
-        'area1 area1 area1'
-        'area1 area1 area1';
 }
