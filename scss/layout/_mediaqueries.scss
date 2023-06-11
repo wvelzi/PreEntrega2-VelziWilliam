@@ -1,0 +1,91 @@
+@media only screen and (max-with:1024px) {
+
+    .menu-navegador {
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .grilla {
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(6, 400px);
+        grid-template-areas:
+            'area1 area1 area1 area1 area1'
+            'area2 area2 area2 area2 area2'
+            'area3 area3 area3 area3 area3'
+            'area4 area4 area4 area4 area4'
+            'area5 area5 area5 area5 area5'
+            'area6 area6 area6 area6 area6';
+    }
+
+    .caja2 {
+        height: 100%;
+        display: inline;
+    }
+
+    .galeri2 {
+        height: 100%;
+        display: inline;
+    }
+
+    .g3 {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 0;
+    }
+
+}
+
+
+@media only screen and (max-width:768px) {
+
+    .menu-navegador {
+        flex-direction: column;
+    }
+
+    .menu-navegador ul {
+        flex-direction: column;
+    }
+
+    .grilla {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: auto;
+        grid-template-areas:
+            'area1 area1 area1 area1'
+            'area2 area2 area2 area2'
+            'area3 area3 area3 area3'
+            'area4 area4 area4 area4'
+            'area5 area5 area5 area5'
+            'area6 area6 area6 area6'
+        ;
+
+    }
+
+
+}
+
+@media only screen and (max-width:480px) {
+    .grilla {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grilla__hijo {
+        height: 600px
+    }
+
+    .grilla__hijo p {
+        font-size: 17px;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .menu-navegador {
+        flex-direction: column;
+    }
+
+    .menu-navegador ul {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,63 @@
+h1 {
+    font-size: 30px;
+    background-color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.caja {
+    background-color: whitesmoke;
+    color: black;
+    border: 5px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    width: 600px;
+    height: 250px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.caja text {
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.table {
+    background-color: white;
+    width: 600px;
+    height: 100px;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    border: 3px solid black;
+    border-radius: 8px;
+}
+
+.map {
+    width: 600px;
+    height: 300px;
+    margin: 50px;
+    border: 5px solid black;
+    display: flex;
+}
+
+.map iframe {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

@@ -1,0 +1,64 @@
+.grilla {
+    border: 3px solid whitesmoke;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 600px);
+    grid-template-areas:
+        'area1 area1 area1 area3 area3 area3'
+        'area4 area4 area6 area5 area2 area2'
+        'area4 area4 area6 area5 area2 area2'
+    ;
+    gap: 15px;
+    padding: 15px;
+}
+
+.grilla__hijo {
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    border: 3px solid black;
+}
+
+
+.g1 {
+    grid-area: area1;
+}
+
+.grilla__hijo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.g2 {
+    grid-area: area2;
+}
+
+.g3 {
+    grid-area: area3;
+
+}
+
+
+.g4 {
+    grid-area: area4;
+
+}
+
+.g5 {
+    grid-area: area5;
+}
+
+.grilla__hijo p {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.g6 {
+    grid-area: area6;
+}

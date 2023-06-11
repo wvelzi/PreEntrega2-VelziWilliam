@@ -1,427 +1,312 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-
 
 body {
-    background-color: #15F500;
-}
-
-h1 {
-    font-size: 30px;
-    background-color: whitesmoke;
-    padding: 20px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 100%;
+  background-color: #15F500;
 }
 
 h2 {
-    font-size: 30px;
-    padding: 20px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
+  font-size: 30px;
+  padding: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .menu-navegador {
-    background-color: black;
-    width: 100%;
-    height: 100%;
-    flex-wrap: wrap;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
 }
 
 .menu-navegador ul li {
-    display: inline;
-    padding: 10px;
+  display: inline;
+  padding: 10px;
 }
 
-
 .menu-navegador ul {
-    list-style-type: none;
-    text-align: center;
+  list-style-type: none;
+  text-align: center;
 }
 
 .menu-navegador ul li a {
-    text-decoration: none;
-    color: #15F500;
-    font-size: 28px;
-    text-transform: uppercase;
+  text-decoration: none;
+  color: #15F500;
+  font-size: 28px;
+  text-transform: uppercase;
 }
 
 p {
-    font-size: 20px;
-    text-align: justify;
-    padding: 8px;
-
+  font-size: 20px;
+  text-align: justify;
+  padding: 8px;
 }
 
 .titulo {
-    font-size: 28px;
-    font-weight: 1;
-    background-color: whitesmoke;
-    text-align: center;
-    padding: 20px;
-}
-
-.caja {
-    background-color: whitesmoke;
-    color: black;
-    border: 5px solid black;
-    padding: 20px;
-    border-radius: 10px;
-    width: 600px;
-    height: 250px;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-}
-
-
-.caja text {
-    font-size: 30px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+  font-size: 28px;
+  font-weight: 1;
+  background-color: whitesmoke;
+  text-align: center;
+  padding: 20px;
 }
 
 .caj {
-    background-color: whitesmoke;
-    color: black;
-    border: 5px solid black;
-    padding: 20px;
-    border-radius: 8px;
-    width: 800px;
-    height: 400px;
+  background-color: whitesmoke;
+  color: black;
+  border: 5px solid black;
+  padding: 20px;
+  border-radius: 8px;
+  width: 800px;
+  height: 400px;
 }
-
 
 .caj text {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
-
 
 .card-body {
-    padding: 20px;
-    background-color: white;
-    display: inline-block;
-    border: 8px solid black;
-    margin: 15px;
-    text-align: center;
-    justify-content: center;
-    width: 18%;
-    height: 60%;
-}
-
-.table {
-    background-color: white;
-    width: 600px;
-    height: 100px;
-    padding: 10px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    object-fit: cover;
-    border: 3px solid black;
-    border-radius: 8px;
+  padding: 20px;
+  background-color: white;
+  display: inline-block;
+  border: 8px solid black;
+  margin: 15px;
+  text-align: center;
+  justify-content: center;
+  width: 18%;
+  height: 60%;
 }
 
 .carousel-inner {
-    height: 600px;
-    justify-content: center;
+  height: 600px;
+  justify-content: center;
 }
 
 .carousel-item img {
-    width: 100%;
-    height: 600px;
-    object-fit: cover;
-
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
 }
 
 .form {
-    justify-items: center;
-    align-items: center;
-    background-color: white;
-    border: 5px solid black;
-    border-radius: 8px;
-    width: 300px;
-    height: 390px;
-    padding: 20px;
-    margin: 20px;
-
-}
-
-.map {
-    width: 600px;
-    height: 300px;
-    margin: 50px;
-    border: 5px solid black;
-    display: flex;
-}
-
-.map iframe {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  justify-items: center;
+  align-items: center;
+  background-color: white;
+  border: 5px solid black;
+  border-radius: 8px;
+  width: 300px;
+  height: 390px;
+  padding: 20px;
+  margin: 20px;
 }
 
 .pie {
-    background-color: whitesmoke;
-    padding: 5px;
-    border-top: 5px solid black;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
+  background-color: whitesmoke;
+  padding: 5px;
+  border-top: 5px solid black;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
 }
 
 .pie i {
-    font-size: 20px;
-    color: black;
-    display: flex;
-
-
+  font-size: 20px;
+  color: black;
+  display: flex;
 }
 
 .caja2 text {
-    text-align: center;
-    object-fit: cover;
+  text-align: center;
+  object-fit: cover;
 }
 
 .caja3 {
-    background-color: whitesmoke;
-    color: black;
-    padding: 120px 50px;
-    margin: 50px;
-    border: 5px solid black;
-    border-radius: 10px;
-    width: 900px;
-    height: 450px;
+  background-color: whitesmoke;
+  color: black;
+  padding: 120px 50px;
+  margin: 50px;
+  border: 5px solid black;
+  border-radius: 10px;
+  width: 900px;
+  height: 450px;
 }
 
-
 .caja3 p {
-    text-align: center;
-    object-fit: cover;
+  text-align: center;
+  object-fit: cover;
 }
 
 .loremprod {
-    background-color: whitesmoke;
-    color: black;
-    padding: 120px 50px;
-    margin: 50px;
-    border: 5px solid black;
-    border-radius: 10px;
-    width: 700px;
-    height: 350px;
-    text-align: center;
-    align-items: center;
+  background-color: whitesmoke;
+  color: black;
+  padding: 120px 50px;
+  margin: 50px;
+  border: 5px solid black;
+  border-radius: 10px;
+  width: 700px;
+  height: 350px;
+  text-align: center;
+  align-items: center;
 }
-
 
 .loremprod text {
-    text-align: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-
 .wsp {
-    width: 80px;
-    height: 80px;
-    border-radius: 100%;
-    object-fit: cover;
-    position: fixed;
-    bottom: 15px;
-    right: 15px;
-    z-index: 1;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  object-fit: cover;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  z-index: 1;
 }
 
 .text {
-    font-size: 26px;
-    font-weight: 400px;
-    background-color: whitesmoke;
-    border: solid black;
-    width: 500px;
-    height: 50px;
-    text-align: center;
-    border-radius: 10px;
+  font-size: 26px;
+  font-weight: 400px;
+  background-color: whitesmoke;
+  border: solid black;
+  width: 500px;
+  height: 50px;
+  text-align: center;
+  border-radius: 10px;
 }
 
 .grilla {
-    border: 3px solid whitesmoke;
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(3, 600px);
-    grid-template-areas:
-        'area1 area1 area1 area3 area3 area3'
-        'area4 area4 area6 area5 area2 area2'
-        'area4 area4 area6 area5 area2 area2'
-    ;
-    gap: 15px;
-    padding: 15px;
+  border: 3px solid whitesmoke;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(3, 600px);
+  grid-template-areas: "area1 area1 area1 area3 area3 area3" "area4 area4 area6 area5 area2 area2" "area4 area4 area6 area5 area2 area2";
+  gap: 15px;
+  padding: 15px;
 }
 
 .grilla__hijo {
-    width: 100%;
-    height: 100%;
-    background-color: whitesmoke;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    place-items: center;
-    border: 3px solid black;
+  width: 100%;
+  height: 100%;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+  border: 3px solid black;
 }
 
-
 .g1 {
-    grid-area: area1;
+  grid-area: area1;
 }
 
 .grilla__hijo img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .g2 {
-    grid-area: area2;
+  grid-area: area2;
 }
 
 .g3 {
-    grid-area: area3;
-
+  grid-area: area3;
 }
 
-
 .g4 {
-    grid-area: area4;
-
+  grid-area: area4;
 }
 
 .g5 {
-    grid-area: area5;
+  grid-area: area5;
 }
 
 .grilla__hijo p {
-    width: 100%;
-    height: 100%;
-    text-align: center;
+  width: 100%;
+  height: 100%;
+  text-align: center;
 }
 
 .g6 {
-    grid-area: area6;
+  grid-area: area6;
 }
 
-
-@media only screen and (max-with:1024px) {
-
-    .menu-navegador {
-        justify-content: center;
-        align-items: center;
-
-    }
-
-    .grilla {
-        grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: repeat(6, 400px);
-        grid-template-areas:
-            'area1 area1 area1 area1 area1'
-            'area2 area2 area2 area2 area2'
-            'area3 area3 area3 area3 area3'
-            'area4 area4 area4 area4 area4'
-            'area5 area5 area5 area5 area5'
-            'area6 area6 area6 area6 area6';
-    }
-
-    .caja2 {
-        height: 100%;
-        display: inline;
-    }
-
-    .galeri2 {
-        height: 100%;
-        display: inline;
-    }
-
-    .g3 {
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-        border-radius: 0;
-    }
-
+@media only screen and (max-with: 1024px) {
+  .menu-navegador {
+    justify-content: center;
+    align-items: center;
+  }
+  .grilla {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 400px);
+    grid-template-areas: "area1 area1 area1 area1 area1" "area2 area2 area2 area2 area2" "area3 area3 area3 area3 area3" "area4 area4 area4 area4 area4" "area5 area5 area5 area5 area5" "area6 area6 area6 area6 area6";
+  }
+  .caja2 {
+    height: 100%;
+    display: inline;
+  }
+  .galeri2 {
+    height: 100%;
+    display: inline;
+  }
+  .g3 {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .menu-navegador {
+    flex-direction: column;
+  }
+  .menu-navegador ul {
+    flex-direction: column;
+  }
+  .grilla {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: "area1 area1 area1 area1" "area2 area2 area2 area2" "area3 area3 area3 area3" "area4 area4 area4 area4" "area5 area5 area5 area5" "area6 area6 area6 area6";
+  }
+}
+@media only screen and (max-width: 480px) {
+  .grilla {
+    display: flex;
+    flex-direction: column;
+  }
+  .grilla__hijo {
+    height: 600px;
+  }
+  .grilla__hijo p {
+    font-size: 17px;
+    padding: 15px;
+    text-align: center;
+  }
+  .menu-navegador {
+    flex-direction: column;
+  }
+  .menu-navegador ul {
+    flex-direction: column;
+  }
 }
 
-
-@media only screen and (max-width:768px) {
-
-    .menu-navegador {
-        flex-direction: column;
-    }
-
-    .menu-navegador ul {
-        flex-direction: column;
-    }
-
-    .grilla {
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: auto;
-        grid-template-areas:
-            'area1 area1 area1 area1'
-            'area2 area2 area2 area2'
-            'area3 area3 area3 area3'
-            'area4 area4 area4 area4'
-            'area5 area5 area5 area5'
-            'area6 area6 area6 area6'
-        ;
-
-    }
-
-
-}
-
-@media only screen and (max-width:480px) {
-    .grilla {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .grilla__hijo {
-        height: 600px
-    }
-
-    .grilla__hijo p {
-        font-size: 17px;
-        padding: 15px;
-        text-align: center;
-    }
-
-    .menu-navegador {
-        flex-direction: column;
-    }
-
-    .menu-navegador ul {
-        flex-direction: column;
-    }
-}
+/*# sourceMappingURL=style.css.map */
